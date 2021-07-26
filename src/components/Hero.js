@@ -8,7 +8,7 @@ const Hero = () => {
         <h1 className="text-3xl sm:text-5xl lg:text-7xl xl:text-8xl mb-14">
           PIZZAGHAR
         </h1>
-        <Link className="flex text-xl bg-yellow-500 rounded-full lg:text-3xl text-black py-4 px-10 transition duration-300 ease-in-out animate-bounce">
+        <Link className="flex text-xl bg-yellow-500 rounded-full lg:text-3xl text-black py-4 px-10 transition duration-300 ease-in-out animate-bounce" to="/" >
           Order now
           <svg
             xmlns="http://www.w3.org/2000/svg"

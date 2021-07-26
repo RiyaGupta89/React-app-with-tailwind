@@ -1,12 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
+
   return (
     <nav className="flex justify-between shadow-sm h-16 items-center">
-      <Link to="/" className="py-4 px-7">Pizza.</Link>
+      <Link to="/" className="py-4 px-7 text-xl">Pizza.</Link>
       <div className="lg:hidden md:hidden pr-7">
         <svg
+        onClick={toggle}
           xmlns="http://www.w3.org/2000/svg"
           className="h-6 w-6"
           fill="none"
@@ -30,5 +32,6 @@ const Navbar = () => {
     </nav>
   );
 };
+
 
 export default Navbar;
