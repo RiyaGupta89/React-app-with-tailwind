@@ -34,14 +34,6 @@ yarn / npm start
 
 <br>
 
-##Screenshots
-
-![Demo1](src/images/pizza.png)
-<br>
-
-![Demo2](src/images/pizza1.png)
-<br>
-
 
 ## Happy Coding!
 
