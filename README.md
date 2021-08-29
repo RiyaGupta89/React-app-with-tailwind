@@ -13,7 +13,7 @@ It is a simple React pizza website using React and Tailwind. This app helps peop
 <br>
 
 
-### How to get the form on your local machine:
+### How to get the website on your local machine:
 
 ---
 
