@@ -1,6 +1,6 @@
 import React from 'react'
-import imageOne from "../images/img1.jpeg"
-import imageTwo from "../images/img2.jpeg"
+import imageOne from "./img1.jpeg"
+import imageTwo from "./img2.jpeg"
 
 const Content = () => {
     return (

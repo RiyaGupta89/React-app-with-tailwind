@@ -5,8 +5,9 @@ import Content from "./components/Content";
 import Footer from "./components/Footer";
 import { Switch, Route } from "react-router";
 import About from "./pages/About";
-import Menu from "./pages/Menu";
 import Contact from "./pages/Contact";
+import Features from "./pages/Features";
+import Gallery from "./pages/Gallery";
 import Dropdown from "./components/Dropdown";
 import {useState} from "react";
 
@@ -36,8 +37,11 @@ function App() {
     <Route path="/contact" exact>
       <Contact />
     </Route>
-    <Route path="/menu" exact>
-      <Menu />
+    <Route path="/features" exact>
+      <Features />
+    </Route>
+    <Route path="/gallery" exact>
+      <Gallery />
     </Route>
   </Switch>
       <Footer />

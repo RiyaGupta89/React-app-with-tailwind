@@ -25,9 +25,10 @@ const Navbar = ({toggle}) => {
       </div>
       <div className="py-4 pr-7 hidden md:block">
           <Link to="/" className="p-4">Home</Link>
-          <Link to="/menu" className="p-4">Menu</Link>
           <Link to="/about" className="p-4">About</Link>
           <Link to="/contact" className="p-4">Contact</Link>
+          <Link to="/features" className="p-4">Features</Link>
+          <Link to="/gallery" className="p-4">Gallery</Link>
       </div>
     </nav>
   );
