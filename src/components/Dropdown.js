@@ -9,14 +9,17 @@ const Dropdown = ({isOpen, toggle}) => {
         <Link to="/" className="py-4">
           Home
         </Link>
-        <Link to="/menu" className="py-4">
-          Menu
-        </Link>
         <Link to="/about" className="py-4">
           About
         </Link>
         <Link to="/contact" className="py-4">
           Contact
+        </Link>
+        <Link to="/features" className="py-4">
+          Features
+        </Link>
+        <Link to="/gallery" className="py-4">
+          Gallery
         </Link>
       </div>
     </div>

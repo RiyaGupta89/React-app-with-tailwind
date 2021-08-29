@@ -2,8 +2,8 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div className="h-screen w-screen flex flex-col justify-center items-center overflow-x-hidden my-6">
-            <h1 className="text-yellow-400 font-mono text-3xl font-bold uppercase mb-3">We are happy to connect with our customers</h1>
+        <div className="w-screen flex flex-col justify-center items-center overflow-x-hidden my-6">
+            <h1 className="text-yellow-400 font-mono text-3xl font-bold uppercase mb-3 text-center px-4">We are happy to connect with our customers</h1>
 
             <form onSubmit={(event)=>{event.preventDefault(); alert("Thankyou for filling our form.")}}>
                 <div className="flex flex-col my-4">
